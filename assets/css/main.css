@@ -1755,7 +1755,7 @@ input, select, textarea {
 
     .github, .linkedin {
       color: rgba(250, 128, 114, 0.445);
-      width: 34px;
+      width: 40px;
       text-decoration: none;
       padding-top: 10px;
     }
