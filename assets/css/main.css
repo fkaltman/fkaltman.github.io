@@ -1753,6 +1753,17 @@ input, select, textarea {
 
 /* Icons */
 
+.fab, .fa-github-square, .fab .fa-linkedin {
+  /* width: 200px; */
+    } 
+
+    .github, .linkedin {
+      color: rgba(250, 128, 114, 0.445);
+      width: 34px;
+      text-decoration: none;
+      padding-top: 10px;
+    }
+
 
 .icon {
   text-decoration: none;
@@ -2212,6 +2223,4 @@ body.is-preload #wrapper {
 
     }
     
-    /* .fa-github-square .fa-linkedin {
-      font-family: 'Font Awesome 5 Brands';
-    } */
+   
