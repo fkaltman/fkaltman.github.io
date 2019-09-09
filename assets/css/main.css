@@ -74,11 +74,17 @@ input, select, textarea {
 
 /* Individual Project Headers */
 
+.altman-pic {
+  width: 300px;
+}
+
+/* Individual Project Headers */
+
 .app-title {
   font-size: 26px;
   line-height: 1.5;
   font-weight: bold;
-  margin-top: 7vh;
+  margin-top: 2vh;
   margin-bottom: 1vh;
 }
 
@@ -91,6 +97,17 @@ input, select, textarea {
 .app-subtitle {
   font-size: 20px;
   margin-top: 0px;
+  /* margin-bottom: 4vh; */
+}
+
+.thrifti-logo, .bean-logo, .sg-logo, .tackle-logo {
+  width: 16vw;
+  margin-top: 4vh; 
+}
+
+.thrifti-link, .bean-link, .sg-link, .tackle-link {
+  /* margin-bottom: 2vh; */
+  /* padding-bottom: 4vh; */
 }
 
 /* Row */
