@@ -114,8 +114,8 @@ input, select, textarea {
   .app-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5vh 12vw;
-    margin-left: 7vw;
+    grid-gap: 2vh 6vw;
+    margin-left: 5vw;
   }
 
 
@@ -176,7 +176,14 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-			}
+      }
+      
+      /* Tiliing the App Cards */
+      .app-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0vw;
+      }
 
 		}
 
