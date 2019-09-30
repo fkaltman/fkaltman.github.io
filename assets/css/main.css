@@ -78,6 +78,33 @@ input, select, textarea {
   width: 300px;
 }
 
+/* Skills icons in project page */
+
+.skill-grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2vw;
+}
+
+.skillz {
+  color: salmon;
+  width: 6vw;
+  opacity: .5;
+  padding-bottom: 6vh;
+}
+
+.rails-skill {
+  width: 3vw;
+  opacity: .5;
+  
+}
+
+.sql-skill {
+  width: 4vw;
+  opacity: .5;
+ 
+}
+
 /* Individual Project Headers */
 
 .app-title {
@@ -100,10 +127,16 @@ input, select, textarea {
   margin-bottom: 0vh;
 }
 
-.thrifti-logo, .bean-logo, .sg-logo, .tackle-logo {
+.thrifti-logo, .sg-logo {
+  width: 16vw;
+  margin-top: 4vh; 
+}
+
+.bean-logo, .tackle-logo {
   width: 16vw;
   margin-top: 14vh; 
 }
+
 
 .thrifti-link, .bean-link, .sg-link, .tackle-link {
   text-decoration: none;
