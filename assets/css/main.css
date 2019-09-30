@@ -84,6 +84,7 @@ input, select, textarea {
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 2vw;
+  justify-content: center;
 }
 
 .skillz {
@@ -95,14 +96,12 @@ input, select, textarea {
 
 .rails-skill {
   width: 3vw;
-  opacity: .5;
-  
+  opacity: .5; 
 }
 
 .sql-skill {
   width: 4vw;
   opacity: .5;
- 
 }
 
 /* Individual Project Headers */
@@ -802,6 +801,21 @@ body.is-preload #wrapper {
 }
 
 @media screen and (max-width: 736px) {
+
+
+.skill-grid {
+  grid-column-gap: 6vw;
+}
+
+.rails-skill {
+  width: 8vw;
+  opacity: .5; 
+}
+
+.sql-skill {
+  width: 8vw;
+  opacity: .5;
+}
   
   #wrapper {
     padding: 1em 0;
