@@ -95,7 +95,7 @@ input, select, textarea {
   color: salmon;
   /* width: 5vw; */
   opacity: .5;
-  padding-bottom: 10vh;
+  padding-bottom: 6vh;
   padding-top: 3vh;
   
 }
@@ -116,6 +116,12 @@ input, select, textarea {
   width: 6vw;
   opacity: .5;
   padding-top: 2.5vh;
+}
+
+/* Projects header (h2) */
+
+.projects {
+  margin-top: 6vh;
 }
 
 /* Individual Project Headers */
@@ -822,6 +828,7 @@ body.is-preload #wrapper {
 
 .skill-grid {
   grid-column-gap: 1vw;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .skillz {
@@ -833,7 +840,7 @@ body.is-preload #wrapper {
 }
 
 .sql-skill {
-  width: 170vw;
+  width: 17vw;
 }
 
 .postgresql-skill {
