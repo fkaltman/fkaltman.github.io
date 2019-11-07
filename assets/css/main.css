@@ -78,30 +78,44 @@ input, select, textarea {
   width: 300px;
 }
 
+.about-me-paragraph{
+  margin: 0;
+}
+
 /* Skills icons in project page */
 
 .skill-grid {
   display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 2vw;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1vw;
+  justify-content: stretch;
 }
 
 .skillz {
   color: salmon;
-  width: 6vw;
+  /* width: 5vw; */
   opacity: .5;
-  padding-bottom: 6vh;
+  padding-bottom: 10vh;
+  padding-top: 3vh;
+  
 }
 
 .rails-skill {
-  width: 3vw;
+  width: 5vw;
   opacity: .5; 
+  padding-top: 3vh;
 }
 
 .sql-skill {
-  width: 4vw;
+  width: 6vw;
   opacity: .5;
+  padding-top: 3vh;
+}
+
+.postgresql-skill {
+  width: 6vw;
+  opacity: .5;
+  padding-top: 2.5vh;
 }
 
 /* Individual Project Headers */
@@ -135,7 +149,6 @@ input, select, textarea {
   width: 16vw;
   margin-top: 14vh; 
 }
-
 
 .thrifti-link, .bean-link, .sg-link, .tackle-link {
   text-decoration: none;
@@ -808,15 +821,23 @@ body.is-preload #wrapper {
 
 
 .skill-grid {
-  grid-column-gap: 4vw;
+  grid-column-gap: 1vw;
+}
+
+.skillz {
+  width: 17vw;
 }
 
 .rails-skill {
-  width: 8vw; 
+  width: 17vw; 
 }
 
 .sql-skill {
-  width: 8vw;
+  width: 170vw;
+}
+
+.postgresql-skill {
+  width: 17vw;
 }
   
   #wrapper {
