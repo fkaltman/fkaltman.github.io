@@ -827,8 +827,10 @@ body.is-preload #wrapper {
 
 
 .skill-grid {
-  grid-column-gap: 1vw;
-  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 8vw;
+  grid-template-columns: repeat(3, 6fr);
+  margin-left: 10vw;
+  
 }
 
 .skillz {
@@ -836,15 +838,15 @@ body.is-preload #wrapper {
 }
 
 .rails-skill {
-  width: 17vw; 
+  width: 14vw; 
 }
 
 .sql-skill {
-  width: 17vw;
+  width: 16vw;
 }
 
 .postgresql-skill {
-  width: 17vw;
+  width: 18vw;
 }
   
   #wrapper {
