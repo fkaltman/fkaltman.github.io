@@ -4,18 +4,8 @@ Email me at francinekline@gmail.com
 
 Credits:
 
-  HTML5 template:
-    Astral by HTML5 UP open source 
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-    aj@lkn.io | @ajlkn
-
-	Demo Images:
-		Unsplash (unsplash.com)
+	Modal Functionality:
+		SweetAlert2 (https://sweetalert2.github.io/)
 
 	Icons:
 		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
