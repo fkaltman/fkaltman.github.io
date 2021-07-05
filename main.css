@@ -1,0 +1,593 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-size: 90%;
+  list-style: none;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  list-style: none;
+  border: 0;
+}
+
+header {
+  position: relative;
+}
+
+img,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  list-style: none;
+  border: 0;
+}
+
+.hero-image img {
+  width: 100vw;
+  opacity: 0.9;
+}
+
+.name-francine {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(132, 153, 145);
+  color: floralwhite;
+  font-size: 280%;
+  margin-left: 50vw;
+  position: relative;
+  bottom: 16vh;
+}
+
+.main-subtitle {
+  font-family: "Libre Franklin", sans-serif;
+  margin-top: -60px;
+  font-size: 1.8em;
+  color: rgb(95, 126, 96);
+  text-align: right;
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+
+/* ------------------------------- */
+/* ----------- Skills ------------ */
+/* ------------------------------- */
+
+.skills {
+  background-color: rgb(198, 219, 219);
+}
+
+.skills-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: rgb(67, 111, 112);
+  margin: 0;
+  padding: 6vh 0 6vh 3vw;
+}
+
+/* ---------------------------------------- */
+/* ----------- Work / Projects ------------ */
+/* ---------------------------------------- */
+
+.btg-screens,
+.space-screens {
+  width: 60vw;
+}
+
+.bean-screens {
+  display: inline-block;
+  width: 20vw;
+}
+
+.single-project {
+  background-color: rgb(198, 219, 219);
+  padding-top: 6vh;
+}
+
+
+.project-tools-github {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: auto;
+  width: auto;
+  margin: 3vh auto;
+}
+
+.project-tools-github * {
+  margin: 5px;
+}
+
+
+.bean-project,
+.space-project,
+.btg-project {
+  display: flex;
+  justify-content: center;
+}
+
+.btg-project {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.modal-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  background-color: rgb(235, 229, 232) !important;
+  color: rgb(67, 111, 112);
+  border-radius: 5px;
+  margin-top: 1vh;
+  width: 210px;
+  height: 30px;
+}
+
+.second-button {
+  margin-bottom: 3vh;
+}
+
+.swal2-image {
+  margin: 0;
+}
+
+.swal2-popup {
+  width: 60em !important;
+}
+
+.projects-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  color: darkgrey;
+  margin-left: 3vw;
+  padding: 3vh 0 0 0;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8em;
+  font-weight: 900px;
+  color: rgb(101, 119, 158);
+  margin: 4vh 0;
+  text-align: center;
+}
+
+.project-blurb {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #535252;
+  margin: 1vh auto 4vh auto;
+  max-width: 60vw;
+}
+
+.site {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: #65779e;
+  text-decoration: none;
+}
+
+/*  ===== start icons ===== */
+
+.modal {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(95, 126, 96);
+  text-align: center;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.modal-text {
+  display: none;
+}
+
+.modal img {
+  display: none;
+}
+
+.github {
+  font-size: 1.2em;
+  color: rgb(67, 111, 112);
+  text-decoration: none;
+}
+
+.old-page {
+  height: 30px;
+}
+
+/*  ===== end icons ===== */
+
+hr {
+  border: 1px solid rgb(165, 188, 214);
+  margin: 0;
+}
+
+.space-site {
+  font-size: 1.5em;
+  margin: 4vh auto;
+}
+
+.btg-site {
+  font-size: 1.5em;
+  margin: 0vh auto 2vh auto;
+}
+
+.space-button {
+  width: z 230px;
+}
+
+.btg-button {
+  margin-bottom: 2vh;
+  padding: 4px;
+}
+
+.language-option {
+  display: inline-flex;
+  font-family: "Roboto", sans-serif;
+  color: rgb(67, 111, 112);
+  margin-bottom: 10px;
+}
+
+.language2 {
+  margin-bottom: 40px;
+}
+
+.setlist-project,
+.andrew-project {
+  display: flex;
+  justify-content: center;
+}
+
+.setlist-screens {
+  width: 24vw;
+}
+
+.andrew-screens {
+  width: 40vw;
+}
+
+.middle-screen,
+.andrew-second-screen {
+  padding: 0 1vw;
+}
+
+.and {
+  font-size: 30px;
+}
+
+/* ------------------------------- */
+/* -------- Contact Form --------- */
+/* ------------------------------- */
+
+.email-form {
+  font-family: "Fredericka the Great", cursive;
+  height: 65vh;
+  min-height: 310px;
+  /* background-image: url("./images/florian-klauer-expanded.png"); */
+  background-image: url("./images/florian-klauer-desktop_square.jpg");
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  font-size: 1.5em;
+  color: rgb(32, 45, 46);
+  border: solid 2px lightgrey;
+  padding-top: 1vh;
+  padding-left: 50vw;
+  padding-bottom: 120px;
+}
+
+.email-form-header {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 1.5em;
+  padding-top: 8vh;
+  padding-bottom: 6vh;
+  color: rgb(99, 53, 58);
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: 18vw 18vw;
+}
+
+#name {
+  height: 30px;
+  width: 16vw;
+}
+
+#email {
+  height: 30px;
+  width: 18vw;
+}
+
+.half {
+  padding-bottom: 4vh;
+}
+
+#message {
+  margin-top: 4vh;
+  height: 20vh;
+  width: 30vw;
+}
+
+.msg-touch {
+  margin-top: 40vh;
+  padding-top: 4vh;
+}
+
+.send-touch-button {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(32, 45, 46);
+  margin-top: 4vh;
+  height: 30px;
+  width: 180px;
+  font-size: 0.75em;
+  border-radius: 3px;
+}
+
+.linkedin {
+  text-align: center ;
+  height: 40px;
+}
+
+.fa-linkedin {
+  color: #65779e;
+  margin-top: 7px;
+  
+}
+
+/* -------------------------- */
+/* --------- Footer --------- */
+/* -------------------------- */
+
+footer {
+  padding-top: 10px;
+  text-align: center;
+  height: 40px;
+  font-family: "Libre Franklin", sans-serif;
+  background-color: rgb(204, 212, 212);
+  color: rgba(95, 158, 160, 0.5);
+}
+
+.footer-icon {
+  padding: 1.5vh 0.75vw;
+}
+
+.name-copyright {
+  color: grey;
+  font-size: 1em;
+  margin: 0;
+  padding-top: 1vh;
+}
+
+/*  ============== MQ ================ */
+
+@media only screen and (max-width: 1025px) {
+  .email-form {
+    background-image: url("./images/florian-klauer-tablet.jpg");
+  }
+
+  .name-francine {
+    font-size: 220%;
+    margin-right: 2vw;
+    bottom: 76px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  .main-subtitle {
+    font-size: 1em;
+    margin-top: -30px;
+}
+
+  .projects {
+    font-size: 1em;
+  }
+
+  .single-project {
+    padding-top: 2vh;
+  }
+
+  .title {
+    margin: 4vh 0vw;
+  }
+
+  .project-blurb {
+    max-width: 88vw;
+    font-size: 1.2em;
+  }
+
+  .site {
+    font-size: 0.75em;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .modal-button {
+    height: 6vh;
+    width: 190px;
+  }
+
+  .setlist-screens {
+    width: 60vw;
+    margin-left: 20%;
+  }
+
+  .andrew-screens,
+  .btg-screens,
+  .space-screens {
+    width: 90vw;
+    margin-left: 0%;
+  }
+
+  .andrew-screens {
+    margin-left: 5.5%;
+  }
+
+  .setlist-project,
+  .andrew-project {
+    flex-direction: column;
+  }
+
+  .middle-screen,
+  .andrew-second-screen {
+    padding: 10px 0 10px 0;
+  }
+  .bean-screens {
+    width: 46vw;
+  }
+
+  h2#swal2-title.swal2-title {
+    font-size: 20px;
+  }
+
+  .swal2-image {
+    max-height: 180px;
+    padding: 0em;
+    max-width: 70%;
+  }
+
+  .swal2-popup {
+    padding: 0em;
+  }
+
+  .swal2-styled.swal2-confirm {
+    color: #3d3d3d !important;
+    background-color: #c6ebeb!important;
+  }
+
+  .email-form {
+    background-image: url("./images/florian-klauer-mobile-long.jpg");
+    background-color: rgb(199, 190, 190);
+    background-size: contain;
+    padding-left: 10vw;
+    padding-bottom: 120px;
+    font-size: 1.5em;
+  }
+
+  .email-form-header {
+    padding-top: 8vh;
+    font-size: 1.5em;
+    padding-left: 80px;
+  }
+
+  .name {
+    margin-right: 30px;
+  }
+
+  .intouch-name-email {
+    display: block;
+    font-size: 24px;
+  }
+
+  .field {
+    margin-top: 20px;
+  }
+
+  /* style inputs */
+
+  .fields {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    margin-top: -20px;
+  }
+
+  input#name {
+    height: 20px;
+    width: 38vw;
+  }
+
+  input#email {
+    height: 20px;
+    width: 38vw;
+  }
+  #message {
+    margin-top: 1vh;
+    width: 80vw;
+  }
+
+  .half {
+    position: relative;
+    top: 30px;
+  }
+
+  .msg-touch {
+    margin-top: 400px;
+    padding-top: 4vh;
+  }
+
+  .send-touch-button {
+    font-family: "Fredericka the Great", cursive;
+    color: rgb(32, 45, 46);
+    margin-top: 1vh;
+    height: 6vh;
+    font-size: 0.75em;
+    border-radius: 6px;
+  }
+
+  .footer {
+    margin-top: 400px;
+  }
+}
+
+@media only screen and (max-width: 626px) {
+  .name-francine {
+    font-size: 110%;
+    margin-right: 2.4vw;
+    bottom: 40px;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-device-width: 811px) {
+  .email-form {
+    background-image: none;
+    background-color: rgb(155, 163, 163);
+    padding-bottom: 40px;
+  }
+
+  .email-form-header {
+    padding-left: 0px;
+  }
+
+  .fields {
+    margin-top: -40px;
+  }
+
+  .send-touch-button {
+    margin-top: 4vh;
+  }
+}
+
+/*Tablet Query fixes contact form*/
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  .email-form {
+    background-image: none;
+  }
+}
+
+

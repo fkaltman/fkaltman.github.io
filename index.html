@@ -1,195 +1,278 @@
-<!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altman</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/d0dff7d6ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="./images/fa_pink_orange2.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Libre+Franklin|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  </head>
 
-<head>
-  <title>Francine Altman</title>
-  <meta property="og:title" content="Francine Altman">
-  <meta property="og:image" content="%PUBLIC_URL%/me2.jpg">
-  <meta name="twitter:card" content="me2.jpg">
-  <meta property="og:url" content="http://francinealtman.com">
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" href="images/fa_initials.png" />
-  <meta charset="utf-8" />
+  <body>
+    <header class="hero-image">
+      <img
+        src="./images/francine_skyline_hero.jpg"
+        alt="A highly employable team-player radiates confidence in front of a city skyline."
+      />
+    </header>
+    <h1 class="name-francine">
+      F R A N C I N E
+      <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A L T M A N
+    </h1>
+    <p class="main-subtitle">
+      A developer who loves to learn new skills,<br class="hide-br" />
+      I'm grateful to be part of the tech industry during a
+      sea&nbsp;change&nbsp;in&nbsp;diversity&nbsp;and&nbsp;inclusion.
+    </p>
 
+    <!-- ------------------------------------ -->
+    <!-- ------------WORK---------------- -->
+    <!-- ------------------------------------ -->
 
-  <!-- Don't change the below -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <noscript>
-    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-</head>
+    <section class="single-project">
+      <h2 class="title">Web Developer at Blinds To Go</h2>
+      <p class="project-blurb">
+        Current full-time position developing new product pages, optimizing
+        existing pages, and building landing pages with targeted content for
+        digital marketing.
+      </p>
+      <div class="btg-project">
+        <img
+          class="btg-screens"
+          src="./images/macbook_BTG.png"
+          alt="Updated product page for Blinds To Go Solar Shades displayed on a macbook"
+        />
+      </div>
+      <div class="modal-buttons">
+        <div class="project-tools-github">
+          <i class="modal fas fa-wrench fa-2x" role="button">
+            <span class="modal-text">HTML, CSS, JOOMLA, CMS, & SEO</span>
+          </i>
+          <button class="modal smaller-mobile modal-button">
+            View image of former page
+            <img src="./images/macbook_BTG_old_solar.png" alt="" />
+          </button>
+        </div>
+        <a
+          href="https://www.blindstogo.com/fr/produits/toiles/solaires"
+          target="_blank"
+          class="site btg-site language-option"
+          >French-Canadian site</a
+        >
+      </div>
+      <hr />
+    </section>
 
-<body class="is-preload">
+    <section class="single-project">
+      <h2 class="title">
+        <a
+          href="http://setlist-generator.surge.sh/"
+          target="_blank"
+          class="site title"
+          >Setlist Generator</a
+        >
+      </h2>
+      <p class="project-blurb">
+        Developed for touring musicians, this fullstack app with tablet-first design generates random, editable setlists
+        from an editable masterlist.
+      </p>
 
-  <!-- Wrapper-->
-  <div id="wrapper">
+      <div class="setlist-project">
+        <img
+          class="setlist-screens"
+          src="./images/setlist_ipad_vertical.png"
+          alt="Setlist generator app homepage on ipad horizontal"
+        />
+        <img
+          class="setlist-screens middle-screen"
+          src="./images/setlist_ipad_vertical_masterlist.png"
+          alt="Setlist generator app on ipad horizontal- masterlist page"
+        />
+        <img
+          class="setlist-screens"
+          src="./images/setlist_ipad_vertical_random_list.png"
+          alt="Setlist generator app on ipad horizontal - example of 2 randomly generated setlists"
+        />
+      </div>
+      <div class="project-tools-github">
+        <i class="fas fa-wrench fa-2x modal" role="button">
+          <span class="modal-text">
+            HTML, CSS, Javascript,&nbsp;React, Rails
+          </span>
+        </i>
+        <a
+          href="https://github.com/fkaltman/setlist-generator"
+          target="_blank"
+          class="github"
+        >
+          <i class="fab fa-github fa-2x"></i></a>
+      </div>
+      <hr />
+    </section>
 
-    <!-- ------------------------------- -->
-    <!-- FONT AWESOME ICONS FOR HOMEPAGE -->
-    <!-- ------------------------------- -->
+    <section class="single-project">
+      <h2 class="title">
+        <a href="http:/andrewaltman.fun/" target="_blank" class="site title"
+          >andrewaltman.fun</a
+        >
+      </h2>
+      <p class="project-blurb">A musician's professional website with store.</p>
+      <div class="andrew-project">
+        <img
+          class="andrew-screens"
+          src="./images/dotfun_macbook.png"
+          alt="andrewaltman.fun home page displayed on a macbook"
+        />
+        <img
+          class="andrew-screens andrew-second-screen"
+          src="./images/dotfun_store_macbook.png"
+          alt="andrewaltman.fun store page displayed on a macbook"
+        />
+      </div>
+      <div class="project-tools-github">
+        <i class="fas fa-wrench fa-2x modal" role="button">
+          <span class="modal-text">Express, EJS, and MongoDB</span></i
+        >
+        <a
+          href="https://github.com/fkaltman/dotfun"
+          target="_blank"
+          class="github"
+        >
+          <i class="fab fa-github fa-2x"></i></a>
+      </div>
+      <hr />
+    </section>
 
-    <!-- Nav -->
-    <nav id="nav">
-      <a href="#" class="icon solid fa-home"><span>Home</span></a>
-      <a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-      <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-      <!-- <a href="https://github.com/fkaltman" class="fab fa-github-square"><span>Github</span></a> -->
-      <!-- <a href="https://www.linkedin.com/in/fkaltman/" class="solid fab fa-linkedin"><span>LinkedIn</span></a> -->
-    </nav>
+    <section class="single-project">
+      <h2 class="title">
+        <a
+          href="https://www.spacecomposer.com"
+          target="_blank"
+          class="site space-site title"
+          >www.spacecomposer.com</a
+        >
+      </h2>
+      <p class="project-blurb">
+        Redesigned a ten-year-old website for a
+        home-organizer, built on client's&nbsp;CMS.
+      </p>
+      <div class="space-project">
+        <img
+          class="space-screens"
+          src="./images/new_space_comp_macbook.png"
+          alt="Space composer home page displayed on a macbook"
+        />
+      </div>
+      <div class="project-tools-github">
+        <i class="fas fa-wrench fa-2x modal" role="button"
+          ><span class="modal-text">HTML, CSS, & a Vistaprint CMS</span></i
+        >
+        <button class="modal modal-button old-page">
+          View old landing page<img
+            src="./images/old_space_comp_macbook.png"
+            alt=""
+          />
+        </button>
+      </div>
+      <hr />
+    </section>
 
-    <!-- Main -->
-    <div id="main">
+    <section class="single-project">
+      <h2 class="title">
+        <a href="http://beansearch.surge.sh" target="_blank" class="site title"
+          >beansearch.surge.sh</a
+        >
+      </h2>
+      <p class="project-blurb">
+        A toy app for finding recipes featuring black beans
+      </p>
+      <div class="bean-project">
+        <img
+          class="bean-screens"
+          src="./images/bean_iphone11.png"
+          alt="App on iphone11"
+        />
+        <img
+          class="bean-screens"
+          src="./images/bean2_iphone11.png"
+          alt="App on iphone11"
+        />
+      </div>
+      <div class="project-tools-github">
+        <i class="fas fa-wrench fa-2x modal" role="button"
+          ><span class="modal-text"
+            >HTML, CSS, Javascript, React, and the Edamam API</span
+          ></i
+        >
+        <a
+          href="https://github.com/fkaltman/beanSEARCH"
+          target="_blank"
+          class="github"
+        >
+          <i class="fab fa-github fa-2x"></i></a>
+      </div>
+      <hr />
+    </section>
 
-      <!-- Me -->
-      <article id="home" class="panel intro">
-        <header>
-          <h1>Francine Altman</h1>
-          <p>Web Developer,<br>Software & Solutions Engineer</p>
-        </header>
-        <a href="#work" class="jumplink pic">
-          <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-          <img class="altman-pic" src="images/grey_wall_crop_profile.png" alt="" />
-        </a>
-      </article>
+    <!-- ----------------------------------------------- -->
+    <!-- --------------- Contact Form ------------------ -->
+    <!-- ----------------------------------------------- -->
 
-      <!-- Work -->
-      <article id="work" class="panel">
-        <p class=about-me-paragraph>
-          I am a detail-oriented Web Developer who holds 7+ years experience in the fashion and e-commerce space. As
-          both a Developer and Production Specialist, I value the importance of both style and function in any project I
-          take on. I seek the opportunity to work at a mission-driven organization that creates intuitive products with
-          real humans in mind.
-        </p><br>
-        <header>
-
-          <!-- ----------------------------- -->
-          <!-- FONT AWESOME ICONS FOR SKILLS -->
-          <!-- ----------------------------- -->
-          <div class="skill-grid">
-            <i class="fab skillz fa-3x fa-html5"></i>
-            <i class="fab skillz fa-3x fa-css3-alt"></i>
-            <i class="fab skillz fa-3x fa-js"></i>
-            <i class="fab skillz fa-3x fa-react"></i>
-            <i class="fab skillz fa-3x fa-node"></i>
-            <i class="fab skillz fa-3x fa-sketch"></i>
-            <img src="images/rails.png" class="rails-skill">
-            <img src="images/mysql.png" class="sql-skill">
-            <img src="images/postgresql3.png" class="postgresql-skill">
+    <section class="email-form">
+      <h2 class="email-form-header">Get in touch</h2>
+      <form
+        method="post"
+        action="https://formspree.io/f/francinekline@gmail.com"
+        method="POST"
+      >
+        <div class="fields">
+          <div class="field half">
+            <label class="intouch-name-email name" for="name">Name </label>
+            <input type="text" name="name" id="name" value="" />
           </div>
-          <h2 class="projects">Projects</h2>
-        </header>
-        <section>
-          <div class="app-cards">
-            <div class="setlist-card">
-              <img src="images/typewriter_for_meta.png" class="sg-logo" alt="Setlist Generator Logo">
-              <p class="app-title">Setlist Generator</p>
-              <p class="app-descript">Setlist Generator for Touring Musicians</p>
-              <p class="app-subtitle">(Tablet-First Design)<br></p>
-              <a href="http://setlist-generator.surge.sh/" target="_blank" class="sg-link"
-                class="sl-link">http://setlist-generator.surge.sh/</a><br>
-              <a href="https://github.com/fkaltman/setlist-generator" target="_blank"
-                class="github fab fa-2x fa-github-square"></a>
-            </div>
-            <div class="thrifti-card">
-              <img src="images/thrifti_logo_no_border.png" class="thrifti-logo" alt="Thrifti Hanger Logo">
-              <p class="app-title">thrifti</p>
-              <p class="app-descript">Thrift Store Locator</p>
-              <p class="app-subtitle">(Mobile-First Design)</p>
-              <a href="http://thrifti.surge.sh/" target="_blank" class="thrifti-link">http://thrifti.surge.sh/</a><br>
-              <a href="https://github.com/fkaltman/thrifti" target="_blank"
-                class="github fab fa-2x fa-github-square"></a>
-            </div>
-            <div class="tackle-card">
-              <img src="images/tackle_rectangle.png" class="tackle-logo" alt="Tackle Logo">
-              <p class="app-title">tackle;</p>
-              <p class="app-descript">A student-friendy forum where students can post questions
-                on
-                specific program-oriented topics </p>
-              <a href="http://tackle.surge.sh/" target="_blank" class="tackle-link">http://tackle.surge.sh/</a><br>
-              <a href="https://github.com/fkaltman/tackle" target="_blank"
-                class="github fab fa-2x fa-github-square"></a>
-            </div>
-            <div class="bean-card">
-              <img src="images/bean_logo.png" class="bean-logo" alt="Beanie Logo">
-              <p class="app-title">beanSEARCH</p>
-              <p class="app-descript">A Black Bean Recipe App</p>
-              <p class="app-subtitle">(Mobile-First Design)<br></p>
-              <a href="http://beansearch.surge.sh/" target="_blank"
-                class="bean-link">http://beansearch.surge.sh/</a><br>
-              <a href="https://github.com/fkaltman/beanSEARCH" target="_blank"
-                class="github fab fa-2x fa-github-square"></a><br><br><br>
-            </div>
+          <div class="field half second-form-field">
+            <label class="intouch-name-email email" for="email">Email </label>
+            <input type="email" name="email" id="email" value="" />
           </div>
-
-        </section>
-      </article>
-
-      <!-- Might use the below contact form later -->
-
-      <!-- Contact
-      <article id="contact" class="panel">
-        <header>
-          <h2>Contact Me</h2>
-        </header>
-        <form action="https://formspree.io/francinekline@gmail.com" method="post">
-          <div>
-            <div class="row">
-              <div class="col-6 col-12-medium">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div class="col-6 col-12-medium">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div class="col-12">
-                <input type="text" name="subject" placeholder="Subject" />
-              </div>
-              <div class="col-12">
-                <textarea name="message" placeholder="Message" rows="6"></textarea>
-              </div>
-              <div class="col-12">
-                <input type="submit" value="Send Message" />
-              </div>
-            </div>
+          <div class="field">
+            <label class="msg-touch" for="message">Message</label>
+            <textarea name="message" id="message" rows="6"></textarea>
           </div>
-        </form>
-      </article>
-
-    </div> -->
-
-
-      <!-- Contact -->
-      <article id="contact" class="panel">
-        <header>
-          <h2>Contact Me</h2>
-        </header>
-        <h3>Francine Altman</h3>
-        <h3>Cell: 615-881-0113</h3>
-        <h3>Email: francinekline@gmail.com</h3>
-        <a href="https://github.com/fkaltman" class="github fab fa-2x fa-github-square"></a>
-        <a href="https://www.linkedin.com/in/fkaltman/" class="linkedin solid fab fa-2x fa-linkedin"></a>
-      </article>
-
-    </div>
-
-    <!-- Footer -->
-    <div id="footer">
-      <p><a href="http://html5up.net">HTML5 UP</a></p>
-    </div>
-
-  </div>
-
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+        </div>
+        <div class="submit-button">
+          <input
+            target="_blank"
+            class="send-touch-button"
+            type="submit"
+            name="submit"
+            id="submit"
+            value="Send Message"
+          />
+        </div>
+      </form>
+    </section>
+    <section class="linkedin">
+      <a
+      href="https://www.linkedin.com/in/fkaltman/"
+      target="_blank"
+      class="linked-in"
+      >
+      <i class="fab fa-linkedin fa-2x"></i></a>
+    </section>
+      
+    <footer>
+      <p class="name-copyright">
+        &copy; Francine Altman <span id="year"></span>
+      </p>
+    </footer>
+  </body>
 </html>
