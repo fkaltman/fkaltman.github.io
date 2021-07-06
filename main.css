@@ -40,9 +40,9 @@ p {
 .name-francine {
   font-family: "Fredericka the Great", cursive;
   color: rgb(132, 153, 145);
-  color: floralwhite;
+  color: #fff;
   font-size: 280%;
-  margin-left: 50vw;
+  margin-left: 52vw;
   position: relative;
   bottom: 16vh;
 }
@@ -133,7 +133,7 @@ p {
   font-size: 1em;
   background-color: rgb(235, 229, 232) !important;
   color: rgb(67, 111, 112);
-  border-radius: 5px;
+  border-radius: 3px;
   margin-top: 1vh;
   width: 210px;
   height: 30px;
@@ -399,14 +399,15 @@ footer {
   }
 
   .name-francine {
-    font-size: 220%;
-    margin-right: 2vw;
-    bottom: 76px;
+    font-size: 260%;
+    margin-left: 42vw;
+    bottom: 88px;
   }
 }
 
 @media only screen and (max-width: 768px) {
- 
+  
+  
   .main-subtitle {
     font-size: 1em;
     margin-top: -30px;
@@ -440,7 +441,7 @@ footer {
   .modal-button {
     height: 36px;
     width: 200px;
-    border-radius: 6px !important;
+    border-radius: 3px !important;
     padding-top: 7px;
   }
 
@@ -498,7 +499,7 @@ footer {
 
   .email-form-header {
     padding-top: 8vh;
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding-left: 80px;
   }
 
@@ -551,9 +552,9 @@ footer {
     font-family: "Fredericka the Great", cursive;
     color: rgb(32, 45, 46);
     margin-top: 1vh;
-    height: 6vh;
+    height: 32px;
     font-size: 0.75em;
-    border-radius: 6px;
+    border-radius: 3px;
   }
 
   .footer {
@@ -563,9 +564,9 @@ footer {
 
 @media only screen and (max-width: 626px) {
   .name-francine {
-    font-size: 110%;
-    margin-right: 2.4vw;
-    bottom: 40px;
+    font-size: 130%;
+    margin-left: 34vw;
+    bottom: 44px;
   }
 }
 
