@@ -108,6 +108,10 @@ p {
   margin: 5px;
 }
 
+.project-tools-github > button {
+margin-left: 10px;
+}
+
 
 .bean-project,
 .space-project,
