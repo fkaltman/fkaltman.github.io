@@ -301,7 +301,7 @@ hr {
   background-size: cover;
   opacity: 0.8;
   font-size: 1.5em;
-  color: rgb(32, 45, 46);
+  color: #000;
   border: solid 2px lightgrey;
   padding-top: 1vh;
   padding-left: 50vw;
@@ -438,8 +438,10 @@ footer {
   }
 
   .modal-button {
-    height: 6vh;
-    width: 190px;
+    height: 36px;
+    width: 200px;
+    border-radius: 6px !important;
+    padding-top: 7px;
   }
 
   .setlist-screens {
