@@ -38,13 +38,18 @@ p {
 }
 
 .name-francine {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Montserrat', sans-serif;
   color: rgb(132, 153, 145);
   color: #fff;
   font-size: 280%;
   margin-left: 52vw;
   position: relative;
   bottom: 16vh;
+}
+
+.bold {
+  font-weight: 900;
+  color:#7fff00;
 }
 
 .main-subtitle {
@@ -361,7 +366,7 @@ hr {
 }
 
 .send-touch-button {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Montserrat', sans-serif;
   color: rgb(32, 45, 46);
   margin-top: 4vh;
   height: 30px;
