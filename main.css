@@ -49,13 +49,13 @@ p {
 
 .main-subtitle {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 1.8em;
-  color: rgb(95, 126, 96);
-  text-align: center;
-  /* margin-top: -60px; */
-  /* margin-bottom: 10px; */
-  /* margin-right: 6px; */
-  margin: -60px 200px 10px;
+ /* margin-top: -60px; */
+ margin-top: -24px;
+ font-size: 1.8em;
+ color: rgb(95, 126, 96);
+ text-align: right;
+ margin-bottom: 10px;
+ margin-right: 6px;
 }
 
 /* ------------------------------- */
@@ -142,6 +142,9 @@ margin-left: 10px;
   margin-top: 1vh;
   width: 210px;
   height: 30px;
+  padding-top: 8px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .second-button {
@@ -262,7 +265,13 @@ hr {
   font-family: "Roboto", sans-serif;
   color: rgb(67, 111, 112);
   margin-bottom: 30px;
+  font-size: 0.9em;
 }
+
+.language-option:hover {
+  color: darkgrey;
+}
+
 
 .language2 {
   margin-bottom: 40px;
@@ -296,7 +305,7 @@ hr {
 /* ------------------------------- */
 
 .email-form {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Montserrat', sans-serif;  
   height: 65vh;
   min-height: 310px;
   /* background-image: url("./images/florian-klauer-expanded.png"); */
@@ -314,12 +323,12 @@ hr {
 }
 
 .email-form-header {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   padding-top: 8vh;
   padding-bottom: 6vh;
-  color: rgb(99, 53, 58);
-}
+  color: #65779e;
+} 
 
 .fields {
   display: grid;
@@ -358,7 +367,8 @@ hr {
   height: 30px;
   width: 180px;
   font-size: 0.75em;
-  border-radius: 3px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .linkedin {
@@ -404,8 +414,8 @@ footer {
   }
 
   .name-francine {
-    font-size: 260%;
-    margin-left: 42vw;
+    font-size: 220%;
+    margin-right: 2vw;
     bottom: 88px;
   }
 }
@@ -414,9 +424,8 @@ footer {
   
   
   .main-subtitle {
-    font-size: 1em;
-    /* margin-top: -30px; */
-    margin: -30px 20px 10px;
+    font-size: 1.3em;
+    margin-top: -16px;
 }
 
   .projects {
@@ -499,13 +508,13 @@ footer {
     background-color: rgb(199, 190, 190);
     background-size: contain;
     padding-left: 10vw;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     font-size: 1.5em;
   }
 
   .email-form-header {
     padding-top: 8vh;
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding-left: 80px;
   }
 
@@ -555,12 +564,12 @@ footer {
   }
 
   .send-touch-button {
-    font-family: "Fredericka the Great", cursive;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(32, 45, 46);
     margin-top: 1vh;
-    height: 32px;
+    height: 6vh;
     font-size: 0.75em;
-    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   }
 
   .footer {
@@ -570,9 +579,9 @@ footer {
 
 @media only screen and (max-width: 626px) {
   .name-francine {
-    font-size: 130%;
-    margin-left: 34vw;
-    bottom: 44px;
+    font-size: 110%;
+    margin-right: 2.4vw;
+    bottom: 40px;
   }
 }
 
