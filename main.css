@@ -42,7 +42,7 @@ p {
   color: rgb(132, 153, 145);
   color: #fff;
   font-size: 280%;
-  margin-left: 52vw;
+  margin-left: 38vw;
   position: relative;
   bottom: 16vh;
 }
@@ -414,24 +414,31 @@ footer {
 /*  ============== MQ ================ */
 
 @media only screen and (max-width: 1025px) {
-  .email-form {
-    background-image: url("./images/florian-klauer-tablet.jpg");
+  .main-subtitle {
+    font-size: 1.3em;
+    margin-top: -20px;
   }
-
+  
   .name-francine {
-    font-size: 220%;
+    font-size: 200%;
     margin-right: 2vw;
     bottom: 88px;
+  }
+
+  .email-form {
+    background-image: url("./images/florian-klauer-tablet.jpg");
   }
 }
 
 @media only screen and (max-width: 768px) {
-  
-  
   .main-subtitle {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-top: -16px;
 }
+
+  .hide-mobile {
+    display: none;
+  }
 
   .projects {
     font-size: 1em;
@@ -461,8 +468,8 @@ footer {
   .modal-button {
     height: 36px;
     width: 200px;
-    border-radius: 3px !important;
-    padding-top: 7px;
+    /* border-radius: 3px !important; */
+    padding-top: 9px;
   }
 
   .setlist-screens {
@@ -584,7 +591,7 @@ footer {
 
 @media only screen and (max-width: 626px) {
   .name-francine {
-    font-size: 110%;
+    font-size: 100%;
     margin-right: 2.4vw;
     bottom: 40px;
   }
