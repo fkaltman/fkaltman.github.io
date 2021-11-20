@@ -41,7 +41,8 @@ p {
   font-family: 'Montserrat', sans-serif;
   color: rgb(132, 153, 145);
   color: #fff;
-  font-size: 280%;
+  /* font-size: 280%; */
+  font-size: 340%;
   margin-left: 38vw;
   position: relative;
   bottom: 16vh;
