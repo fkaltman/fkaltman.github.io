@@ -118,6 +118,26 @@ p {
   margin-left: 10px;
 }
 
+.tools-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  color: rgb(67, 111, 112);
+  text-align: center;
+  margin: 2vh 0;
+}
+
+.old-page-section {
+  margin: 4vh auto;
+  text-align: center;
+}
+
+.old-page-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em;
+  color: rgb(101, 119, 158);
+  margin-bottom: 2vh;
+}
+
 .bean-project,
 .space-project,
 .btg-project {
@@ -128,51 +148,6 @@ p {
 .btg-project {
   display: flex;
   flex-wrap: wrap;
-}
-
-.modal-buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2vh;
-}
-
-.modal-button {
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
-  background-color: rgb(235, 229, 232) !important;
-  color: rgb(67, 111, 112);
-  border-radius: 3px;
-  margin-top: 1vh;
-  width: 210px;
-  height: 30px;
-  padding-top: 8px;
-  border-style: none;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-}
-
-.second-button {
-  margin-bottom: 3vh;
-}
-
-.swal2-image {
-  margin: 0;
-}
-
-.swal2-title {
-  font-size: 20px !important;
-  font-weight: 400;
-}
-
-.swal2-popup {
-  font-size: 20px !important;
-  width: 30em !important;
-  font-family: "Libre Franklin", sans-serif !important;
-}
-
-.swal2-styled.swal2-confirm {
-  color: #3d3d3d !important;
-  background-color: #c6ebeb !important;
 }
 
 .projects-title {
@@ -215,25 +190,6 @@ p {
 }
 
 /*  ===== start icons ===== */
-
-.modal {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 0);
-  color: rgb(95, 126, 96);
-  text-align: center;
-  font-size: 1em;
-  text-align: center;
-  border-radius: 3px;
-}
-
-.modal-text {
-  display: none;
-}
-
-.modal img {
-  display: none;
-}
 
 .github {
   font-size: 1.2em;
@@ -469,13 +425,6 @@ footer {
     font-size: 20px;
   }
 
-  .modal-button {
-    height: 36px;
-    width: 200px;
-    /* border-radius: 3px !important; */
-    padding-top: 9px;
-  }
-
   .setlist-screens {
     width: 60vw;
     margin-left: 20%;
@@ -504,20 +453,6 @@ footer {
 
   .bean-screens {
     width: 46vw;
-  }
-
-  h2#swal2-title.swal2-title {
-    font-size: 20px;
-  }
-
-  .swal2-image {
-    max-height: 180px;
-    padding: 0em;
-    max-width: 70%;
-  }
-
-  .swal2-popup {
-    padding: 0em;
   }
 
   .email-form {
