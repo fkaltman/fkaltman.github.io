@@ -101,7 +101,7 @@ p {
 
 .project-tools-github {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   justify-items: center;
@@ -280,20 +280,21 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #000;
   border: solid 2px lightgrey;
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-left: 50vw;
   padding-bottom: 120px;
 }
 
 .email-form-header {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
-  padding-top: 8vh;
-  padding-bottom: 6vh;
+  font-size: 2em;
+  padding-top: 6vh;
+  padding-bottom: 4vh;
   color: #65779e;
+  font-weight: 400;
 }
 
 .fields {
@@ -302,39 +303,92 @@ hr {
 }
 
 #name {
-  height: 30px;
+  height: 35px;
   width: 16vw;
+  padding: 8px 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#name:focus {
+  outline: none;
+  border-color: #65779e;
+  box-shadow: 0 0 0 2px rgba(101, 119, 158, 0.1);
 }
 
 #email {
-  height: 30px;
+  height: 35px;
   width: 18vw;
+  padding: 8px 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#email:focus {
+  outline: none;
+  border-color: #65779e;
+  box-shadow: 0 0 0 2px rgba(101, 119, 158, 0.1);
 }
 
 .half {
-  padding-bottom: 4vh;
+  padding-bottom: 3vh;
 }
 
 #message {
-  margin-top: 4vh;
+  margin-top: 3vh;
   height: 20vh;
   width: 30vw;
+  padding: 10px 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  resize: vertical;
+}
+
+#message:focus {
+  outline: none;
+  border-color: #65779e;
+  box-shadow: 0 0 0 2px rgba(101, 119, 158, 0.1);
 }
 
 .msg-touch {
   margin-top: 40vh;
-  padding-top: 4vh;
+  padding-top: 3vh;
+  font-size: 1em;
+}
+
+.intouch-name-email {
+  font-size: 1em;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.submit-button {
+  margin-top: 2vh;
 }
 
 .send-touch-button {
   font-family: "Montserrat", sans-serif;
   color: rgb(32, 45, 46);
-  margin-top: 4vh;
-  height: 30px;
-  width: 180px;
-  font-size: 0.75em;
+  background-color: rgb(235, 229, 232);
+  margin-top: 3vh;
+  height: 40px;
+  width: 200px;
+  font-size: 0.9em;
   border-style: none;
+  border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.send-touch-button:hover {
+  background-color: rgb(210, 204, 207);
 }
 
 .linkedin {
@@ -461,12 +515,12 @@ footer {
     background-size: contain;
     padding-left: 10vw;
     padding-bottom: 120px;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .email-form-header {
-    padding-top: 8vh;
-    font-size: 1.5em;
+    padding-top: 6vh;
+    font-size: 1.6em;
     padding-left: 80px;
   }
 
@@ -476,7 +530,8 @@ footer {
 
   .intouch-name-email {
     display: block;
-    font-size: 24px;
+    font-size: 0.85em;
+    margin-bottom: 8px;
   }
 
   .field {
@@ -492,17 +547,23 @@ footer {
   }
 
   input#name {
-    height: 20px;
+    height: 40px;
     width: 38vw;
+    padding: 8px 12px;
+    font-size: 1em;
   }
 
   input#email {
-    height: 20px;
+    height: 40px;
     width: 38vw;
+    padding: 8px 12px;
+    font-size: 1em;
   }
   #message {
     margin-top: 1vh;
     width: 80vw;
+    padding: 10px 12px;
+    font-size: 1em;
   }
 
   .half {
@@ -512,15 +573,17 @@ footer {
 
   .msg-touch {
     margin-top: 400px;
-    padding-top: 4vh;
+    padding-top: 3vh;
+    font-size: 0.85em;
   }
 
   .send-touch-button {
     font-family: "Montserrat", sans-serif;
     color: rgb(32, 45, 46);
-    margin-top: 1vh;
-    height: 6vh;
-    font-size: 0.75em;
+    margin-top: 3vh;
+    height: 45px;
+    width: 200px;
+    font-size: 0.9em;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   }
 
