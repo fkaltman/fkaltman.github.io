@@ -38,7 +38,7 @@ p {
 }
 
 .name-francine {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #648a7b;
   color: #fff;
   /* font-size: 280%; */
@@ -50,18 +50,18 @@ p {
 
 .bold {
   font-weight: 900;
-  color:#7fff00;
+  color: #7fff00;
 }
 
 .main-subtitle {
   font-family: "Libre Franklin", sans-serif;
- /* margin-top: -60px; */
- margin-top: -24px;
- font-size: 1.8em;
- color: rgb(95, 126, 96);
- text-align: right;
- margin-bottom: 10px;
- margin-right: 6px;
+  /* margin-top: -60px; */
+  margin-top: -24px;
+  font-size: 1.6em;
+  color: rgb(95, 126, 96);
+  text-align: right;
+  margin-bottom: 10px;
+  margin-right: 6px;
 }
 
 /* ------------------------------- */
@@ -99,7 +99,6 @@ p {
   padding-top: 6vh;
 }
 
-
 .project-tools-github {
   display: flex;
   flex-flow: row nowrap;
@@ -116,9 +115,8 @@ p {
 }
 
 .project-tools-github > button {
-margin-left: 10px;
+  margin-left: 10px;
 }
-
 
 .bean-project,
 .space-project,
@@ -161,13 +159,20 @@ margin-left: 10px;
   margin: 0;
 }
 
+.swal2-title {
+  font-size: 20px !important;
+  font-weight: 400;
+}
+
 .swal2-popup {
-  width: 60em !important;
+  font-size: 20px !important;
+  width: 30em !important;
+  font-family: "Libre Franklin", sans-serif !important;
 }
 
 .swal2-styled.swal2-confirm {
   color: #3d3d3d !important;
-  background-color: #c6ebeb!important;
+  background-color: #c6ebeb !important;
 }
 
 .projects-title {
@@ -182,7 +187,7 @@ margin-left: 10px;
 .title {
   font-family: "Roboto", sans-serif;
   font-size: 1.8em;
-  font-weight: 900px;
+  font-weight: 400;
   color: rgb(101, 119, 158);
   margin: 4vh 0;
   text-align: center;
@@ -192,7 +197,7 @@ margin-left: 10px;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 1.4em;
-  font-weight: 800;
+  font-weight: 400;
   color: #535252;
   margin: 1vh auto 4vh auto;
   max-width: 60vw;
@@ -206,7 +211,7 @@ margin-left: 10px;
 }
 
 .btg-bottom-button {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /*  ===== start icons ===== */
@@ -278,7 +283,6 @@ hr {
   color: darkgrey;
 }
 
-
 .language2 {
   margin-bottom: 40px;
 }
@@ -311,7 +315,7 @@ hr {
 /* ------------------------------- */
 
 .email-form {
-  font-family: 'Montserrat', sans-serif;  
+  font-family: "Montserrat", sans-serif;
   height: 65vh;
   min-height: 310px;
   /* background-image: url("./images/florian-klauer-expanded.png"); */
@@ -329,12 +333,12 @@ hr {
 }
 
 .email-form-header {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
   padding-top: 8vh;
   padding-bottom: 6vh;
   color: #65779e;
-} 
+}
 
 .fields {
   display: grid;
@@ -367,7 +371,7 @@ hr {
 }
 
 .send-touch-button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgb(32, 45, 46);
   margin-top: 4vh;
   height: 30px;
@@ -378,14 +382,13 @@ hr {
 }
 
 .linkedin {
-  text-align: center ;
+  text-align: center;
   height: 40px;
 }
 
 .fa-linkedin {
   color: #65779e;
   margin-top: 7px;
-  
 }
 
 /* -------------------------- */
@@ -416,10 +419,10 @@ footer {
 
 @media only screen and (max-width: 1025px) {
   .main-subtitle {
-    font-size: 1.3em;
+    /* font-size: 1em; */
     margin-top: -20px;
   }
-  
+
   .name-francine {
     font-size: 200%;
     margin-right: 2vw;
@@ -433,9 +436,9 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .main-subtitle {
-    font-size: 1.1em;
+    font-size: 1em;
     margin-top: -16px;
-}
+  }
 
   .hide-mobile {
     display: none;
@@ -498,6 +501,7 @@ footer {
   .andrew-second-screen {
     padding: 10px 0 10px 0;
   }
+
   .bean-screens {
     width: 46vw;
   }
@@ -577,7 +581,7 @@ footer {
   }
 
   .send-touch-button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: rgb(32, 45, 46);
     margin-top: 1vh;
     height: 6vh;
@@ -619,10 +623,8 @@ footer {
 }
 
 /*Tablet Query fixes contact form*/
-@media only screen and (min-width: 481px) and (max-width:768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .email-form {
     background-image: none;
   }
 }
-
-

@@ -2,7 +2,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Altman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;400&family=Montserrat:wght@300;400&family=Roboto:wght@300;400&display=optional"
+      rel="stylesheet"
+    />
+    <title>Francine Altman</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
     <script
       src="https://kit.fontawesome.com/d0dff7d6ab.js"
@@ -10,20 +16,21 @@
     ></script>
     <script type="text/javascript" src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L6LYXNEJN3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-L6LYXNEJN3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-L6LYXNEJN3');
-</script>
+      gtag("config", "G-L6LYXNEJN3");
+    </script>
     <!-- <link rel="shortcut icon" href="./images/fa_pink_orange2.png" /> -->
     <link rel="shortcut icon" href="./images/fa_blue_green_30_28.png" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
     <meta property="og:image" content="./images/twee_card_monserrat.jpg" />
     <meta
       property="og:image:alt"
@@ -50,8 +57,8 @@
       <span class="bold">A L T M A N</span>
     </h1>
     <p class="main-subtitle">
-      A collaborative and autonomus developer,
-      <br class="hide-mobile" />I'm excited about mission-driven work, sustainability, and environmental causes.
+      Excited to build tools to support mission-driven work,</br> sustainability, and
+      environmental causes.
     </p>
 
     <!-- ------------------------------------ -->
@@ -59,12 +66,14 @@
     <!-- ------------------------------------ -->
 
     <section class="single-project">
-      <h2 class="title"><a
-        href="https://www.blindstogo.com/en"
-        target="_blank"
-        class="site title"
-        >Web Developer at blindstogo.com</a
-      ></h2>
+      <h2 class="title">
+        <a
+          href="https://www.blindstogo.com/en"
+          target="_blank"
+          class="site title"
+          >blindstogo.com</a
+        >
+      </h2>
       <p class="project-blurb">
         Current full-time position. <br />Developing new product pages,
         optimizing existing pages, and building landing pages with targeted
@@ -92,7 +101,42 @@
     </section>
 
     <section class="single-project">
+      <h2 class="title">
+        <a href="https://hoboscompanion.org" target="_blank" class="site title"
+          >hoboscompanion.org</a
+        >
+      </h2>
+      <p class="project-blurb">A fan site for the band Railroad Earth</p>
+      <div class="andrew-project">
+        <img
+          class="andrew-screens"
+          src="./images/thc_homepage_macbook.png"
+          alt="andrewaltman.fun home page displayed on a macbook"
+        />
+        <img
+          class="andrew-screens andrew-second-screen"
+          src="./images/thc_venues_macbook.png"
+          alt="andrewaltman.fun store page displayed on a macbook"
+        />
+      </div>
+      <div class="project-tools-github">
+        <i class="fas fa-wrench fa-2x modal" role="button">
+          <span class="modal-text"
+            >TypeScript, React, Next.js, PostgrSQL, SQL, BetterAuth</span
+          ></i
+        >
+        <a
+          href="https://github.com/fkaltman/dotfun"
+          target="_blank"
+          class="github"
+        >
+          <i class="fab fa-github fa-2x"></i
+        ></a>
+      </div>
+      <hr />
+    </section>
 
+    <section class="single-project">
       <h2 class="title">
         <a
           href="http://setlist-generator.surge.sh/"
@@ -139,40 +183,6 @@
       </div>
       <hr />
     </section>
-<!-- 
-    <section class="single-project">
-      <h2 class="title">
-        <a href="http:/andrewaltman.fun/" target="_blank" class="site title"
-          >andrewaltman.fun</a
-        >
-      </h2>
-      <p class="project-blurb">A musician's professional website with store.</p>
-      <div class="andrew-project">
-        <img
-          class="andrew-screens"
-          src="./images/dotfun_macbook.png"
-          alt="andrewaltman.fun home page displayed on a macbook"
-        />
-        <img
-          class="andrew-screens andrew-second-screen"
-          src="./images/dotfun_store_macbook.png"
-          alt="andrewaltman.fun store page displayed on a macbook"
-        />
-      </div>
-      <div class="project-tools-github">
-        <i class="fas fa-wrench fa-2x modal" role="button">
-          <span class="modal-text">Express, EJS, and MongoDB</span></i
-        >
-        <a
-          href="https://github.com/fkaltman/dotfun"
-          target="_blank"
-          class="github"
-        >
-          <i class="fab fa-github fa-2x"></i
-        ></a>
-      </div>
-      <hr />
-    </section> -->
 
     <section class="single-project">
       <h2 class="title">
@@ -256,7 +266,6 @@
         method="post"
         action="https://formspree.io/f/xwkylkdz"
         method="POST"
-        
       >
         <div class="fields">
           <div class="field half">
