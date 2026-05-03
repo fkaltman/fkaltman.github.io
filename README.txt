@@ -1,5 +1,7 @@
 This is my personal/ portfolio website.
-Email me at francinekline@gmail.com 
+
+View the portfolio at: https://francine-altman-portfolio.vercel.app/
+
 
 
 Credits:
